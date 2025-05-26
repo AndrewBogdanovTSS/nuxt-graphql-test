@@ -9,8 +9,12 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@types/node": "latest",
+    "@types/node": "^22.15.21",
     "nuxt": "^3.17.4",
     "nuxt-graphql-client": "^0.2.46"
+  },
+  "volta": {
+    "node": "20.19.1",
+    "pnpm": "8.15.6"
   }
 }
