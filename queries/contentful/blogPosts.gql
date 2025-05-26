@@ -1,0 +1,14 @@
+query blogPosts {
+  blogPostCollection {
+    items {
+      title
+      slug
+      description
+      body
+      publishDate
+      heroImage {
+        url
+      }
+    }
+  }
+}
