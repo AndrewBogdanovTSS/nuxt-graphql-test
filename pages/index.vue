@@ -1,9 +1,5 @@
 <template>
   <div>
-    <pre>{{ data }}</pre>
+    Hello World
   </div>
 </template>
-
-<script lang="ts" setup>
-const { data } = await useAsyncGql('blogPosts');
-</script>
